@@ -1,0 +1,57 @@
+{
+  "name": "oblak/syllabizer",
+  "description": "Splits Serbian words into syllables (podela reči na slogove). Supports Latin and Cyrillic.",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "serbian",
+    "syllable",
+    "syllabification",
+    "slog",
+    "serbian-syllabification",
+    "hyphenation"
+  ],
+  "authors": [
+    {
+      "name": "Sibin Grasic",
+      "email": "sibin.grasic@oblak.studio",
+      "homepage": "https://oblak.studio",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/oblakstudio/syllabizer/issues"
+  },
+  "require": {
+    "php": ">=8.1",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "oblak/wordpress-coding-standard": "^1.2",
+    "phpunit/phpunit": "^10.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oblak\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Oblak\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "platform": {
+      "php": "8.1"
+    },
+    "sort-packages": true
+  },
+  "scripts": {
+    "lint": "phpcs",
+    "lint:fix": "phpcbf",
+    "test": "phpunit"
+  }
+}
