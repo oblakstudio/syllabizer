@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "slogovnik",
+  "project_id": "1824e37f-29d5-40d4-8878-e32726aa6659"
+}
