@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="Oblak Composer library Ruleset">
+    <config name="testVersion" value="8.0-" />
+
+    <rule ref="PHPCompatibility" />
+    <rule ref="Oblak-Slevomat" />
+    <rule ref="PSR12" />
+
+    <file>src/</file>
+
+</ruleset>
