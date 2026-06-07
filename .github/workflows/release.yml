@@ -19,7 +19,6 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          token: ${{ secrets.OBLAKBOT_PAT }}
 
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v7
